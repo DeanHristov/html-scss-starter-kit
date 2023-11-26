@@ -1,0 +1,15 @@
+# Logs
+logs
+*.log 
+
+# Optional npm cache directory
+.npm
+
+# Directories
+.vscode
+.idea
+build
+node_modules
+
+# Others
+.DS_Store

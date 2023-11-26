@@ -1,0 +1,19 @@
+{
+  "name": "html-scss-starter-kit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npm run build && node-sass -w ./scss/main.scss -o dist/css/ --recursive",
+    "build": "node-sass ./scss/ -o dist/css/ --output-style compressed",
+    "start:dev": "concurrently  'node ./liveServer.js' 'npm:watch'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "live-server": "^1.2.2",
+    "node-sass": "^9.0.0"
+  }
+}
