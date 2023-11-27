@@ -1,0 +1,47 @@
+/** @see: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+
+@mixin display-flex($direction: row) {
+  display: flex;
+  flex-direction: $direction;
+}
+
+@mixin flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin justify-content($align: flex-start) {
+  justify-content: $align;
+}
+
+@mixin align-items($align: flex-start) {
+  align-items: $align;
+}
+
+@mixin flex($value: none) {
+  flex: $value;
+}
+
+@mixin flex-wrap($value: nowrap) {
+  flex-wrap: $value;
+}
+
+@mixin flex-basis($value: auto) {
+  flex-basis: $value;
+}
+
+@mixin flex-shrink($value: 0) {
+  flex-shrink: 1;
+}
+
+@mixin flex-grow($value: 0) {
+  flex-grow: $value;
+}
+
+@mixin align-self($value: auto) {
+  align-self: auto;
+}
+
+@mixin order($value: 0) {
+  order: $value;
+}

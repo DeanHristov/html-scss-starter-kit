@@ -8,8 +8,13 @@
   font-size: $base-rem;
 }
 
-body {
-  background-color: $bg-color;
+ul {
+  list-style: none;
+}
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
   color: $text-color;
+
+  background-color: $bg-color;
 }

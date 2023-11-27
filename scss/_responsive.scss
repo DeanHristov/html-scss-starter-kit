@@ -1,0 +1,16 @@
+/** @see: https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
+
+/** $breakpoint-sm: 48rem (480px) */
+@media screen and (min-width: $breakpoint-sm) {
+}
+
+/** $breakpoint-md: 76.8rem (768px) */
+@media only screen and (min-width: $breakpoint-md) {
+}
+/** $breakpoint-lg: 102.4rem (1024px) */
+@media only screen and (min-width: $breakpoint-lg) {
+}
+
+/** $breakpoint-xl: 120.8rem (1280px) */
+@media only screen and (min-width: $breakpoint-xl) {
+}

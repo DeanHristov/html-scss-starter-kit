@@ -1,6 +1,6 @@
 # Motivation
 
-This repo is a perfect solution when you need to develop a new website that only contains the HTML and CSS files. For example, a theme for WordPress or any other CMS that requires you only the html/css files.
+This repo is a perfect solution when you need to develop a new website that only contains the HTML and CSS files. For example, a theme for WordPress or any other CMS that requires you only the html/css files, or you just wanna learn the [SASS](https://sass-lang.com/) in isulation.
 
 ## Requirements
 
@@ -23,10 +23,6 @@ When you're done with the steps above, run the following command:
 ```bash
 $ npm install # or yarn install
 ```
-
-## The starter comes with built-in functionality
-
--
 
 ## Project Structure
 

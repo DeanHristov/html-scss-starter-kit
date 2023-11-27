@@ -1,0 +1,13 @@
+@mixin max-width($value: 128rem) {
+  max-width: $value;
+  margin: 0 auto;
+}
+
+@mixin min-width($value: 32rem) {
+  min-width: $value;
+}
+
+@mixin img-responsive {
+  max-width: 100%;
+  height: auto;
+}

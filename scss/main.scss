@@ -1,4 +1,8 @@
 // https://github.com/sass/node-sass/issues/1742
 
-@import "./_variables";
+@import "./variables";
 @import "./base";
+@import "./utilities";
+@import "./flex";
+
+@import "./responsive";
